@@ -2,12 +2,10 @@
 clear
 
 # set variables
-#username=$1
-#token=$2
-#repo=$3
-comment=${1}
-rama=${2}
-clon2=${3}
+
+   comment=${1}
+   rama=${2}
+   clon2=${3}
 
 # Validar estructura de Repositorio
    if [[ -z $comment ]]; then
@@ -21,8 +19,8 @@ clon2=${3}
    fi
 
 # Configuracion gobal del repositorio
-   git config --global user.email "giovanemere@gmail.com"
-   git config --global user.name "giovanemere"
+   git config --global user.email "darkdavidm@gmail.com"
+   git config --global user.name "Jesus Contreras"
    git config --global core.autocrlf false
 
 # Preguntar si desea Clonar
